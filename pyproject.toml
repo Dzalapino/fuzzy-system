@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fuzzy-system"
+version = "0.1.0"
+description = ""
+authors = ["Kuba Podkomórka <jpodkomorka19@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-fuzzy = "^0.5.0"
+numpy = "^2.2.2"
+networkx = "^3.4.2"
+matplotlib = "^3.10.0"
+scipy = "^1.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

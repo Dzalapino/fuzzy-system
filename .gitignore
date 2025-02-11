@@ -4,3 +4,5 @@
 
 # Pycache
 __pycache__/
+
+*.lock
